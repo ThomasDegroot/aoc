@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thomas Degroot</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../demo.min.css" rel="stylesheet" type="text/css" />
+<link href="../jquery.mobile.structure-1.1.1.min.css" rel="stylesheet" type="text/css" />
+<link href="../custom.css" rel="stylesheet" type="text/css">
+<script src="../jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../jquery.mobile-1.1.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+
+<div data-role="page" id="form">
+ <form action="mailto:thomas25mm@yahoo.ca" method="post" enctype="text/plain" data-ajax="false"> 
+  <div data-role="header" data-position="fixed">
+   <input type="submit" value="Submit" />
+  </div>
+  <div data-role="content">
+
+   <label for="basic">Well Name:</label>
+    <input type="text" name="Well Name" id="basic" value=""  />
+
+<div data-role="fieldcontain">
+  <label for="textarea">Information:</label>
+  <textarea cols="40" rows="8" name="Information" id="textarea"></textarea>
+</div>
+
+<div data-role="fieldcontain">
+  <label for="selectmenu" class="select">Level of Emergency</label>
+  <select name="Level of Emergency" id="selectmenu">
+    <option value="Alert">Alert</option>
+    <option value="Level 1">Level 1</option>
+    <option value="Level 2">Level 2</option>
+    <option value="Level 3">Level 3</option>
+    <option value="We are Screwed">We are Screwed</option>
+  </select>
+</div>
+<div data-role="fieldcontain">
+  <label for="slider">Any Text</label>
+  <input type="range" name="slider" id="slider" value="0" min="0" max="100" />
+</div>
+  </div>
+       </form>    
+    <div data-role="footer" data-position="fixed" data-theme="a">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="../index.html" data-iconpos="top" data-icon="home" rel="external">Home</a></li>
+          <li><a href="../erp.html" data-iconpos="top" data-icon="gear" rel="external">ERP</a></li>
+          <li><a href="../term.html" data-iconpos="top" data-icon="info" rel="external">Terms</a></li>
+           <li><a href="../erp.html" data-iconpos="top" data-icon="back" rel="external">Return</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
